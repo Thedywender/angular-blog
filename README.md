@@ -1,5 +1,10 @@
 # MeuProjetoAngular
 
+This project was create by Dcoker, when you download you need to use this commands:
+
+## Command:
+docker-compose up --build -d  <para executar em ambiente de desenvolvimento>
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
 ## Development server
