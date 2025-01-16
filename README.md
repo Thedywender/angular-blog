@@ -1,6 +1,6 @@
 # MeuProjetoAngular
 
-This project was create by Dcoker, when you download you need to use this commands:
+This project was create by Docker, when you download you need to use this commands:
 
 ## Command:
 docker-compose up --build -d  <para executar em ambiente de desenvolvimento>
