@@ -1,5 +1,9 @@
 # MeuProjetoAngular
 
+This project was create by Docker, when you download you need to use this commands:
+
+## Command: docker-compose up --build -d  <para executar em ambiente de desenvolvimento>
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
 ## Development server
@@ -7,7 +11,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 To start a local development server, run:
 
 ```bash
-ng serve
+npm start
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
