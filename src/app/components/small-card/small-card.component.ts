@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-small-card',
   imports: [],
   templateUrl: './small-card.component.html',
-  styleUrl: './small-card.component.css'
+  styleUrls: ['./small-card.component.css', './small-card.component_responsive.css']
 })
 export class SmallCardComponent {
 

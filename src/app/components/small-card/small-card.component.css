@@ -1,11 +1,9 @@
 .container__small-card-principal {
   display: flex;
   flex-direction: column;
-  border: solid 2px white;
 }
 
 .container__small-card {
-  border: solid 2px white;
   width: 500px;
   height: 180px;
   margin: 0 0 15px 20px;

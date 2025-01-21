@@ -1,0 +1,18 @@
+@media screen and (max-width: 390px) {
+  .container__menu-title {
+    text-align: center;
+  }
+
+  .container__menu-title > h1 {
+    margin-right: 0;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container__menu-title > hr {
+    margin: 5px auto;
+    width: 88%;
+  }
+}
