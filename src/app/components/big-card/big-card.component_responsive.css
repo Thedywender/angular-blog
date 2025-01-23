@@ -1,16 +1,14 @@
 @media screen and (max-width: 390px) {
   .container__big-card {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 100%;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 350px;
   }
 
   .big-card__picture > img {
-    width: 10%;
     min-width: 100%;
     object-fit: cover;
   }
@@ -21,7 +19,8 @@
   }
 
   .big-card__description{
-    margin: 10px;
+    margin: 20px;
+    text-align: justify;
   }
 
   .big-card__description > p > a {

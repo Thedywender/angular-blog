@@ -1,0 +1,20 @@
+@media screen and (max-width: 390px) {
+  .container_menu-bar {
+    width: 344px;
+    margin-top: 15px;
+  }
+
+  .container_menu-bar > ul {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container_menu-bar > ul > li {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}

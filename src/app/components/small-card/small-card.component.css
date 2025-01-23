@@ -5,8 +5,6 @@
 
 .container__small-card {
   width: 500px;
-  height: 180px;
-  margin: 0 0 15px 20px;
   display: flex;
   flex-direction: row;
 }
@@ -14,13 +12,13 @@
 .small-picture > img {
   width: 200px;
   height: 130px;
-  margin: 10px;
 }
 
 .container__small-texts {
-  margin: 20px;
+  margin-left: 15px;
   display: flex;
   flex-direction: column;
+  text-align: justify;
 }
 
 .mini-title > p {
@@ -34,7 +32,7 @@
 }
 
 .container__small-card-separator > hr {
-  margin: 0 0 20px 20px;
+  margin: 20px 0 20px 0;
   width: 500px;
   color: grey;
 }

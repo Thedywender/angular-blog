@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./big-card.component.css', './big-card.component_responsive.css']
 })
 export class BigCardComponent {
+  photoCover:string = ""
+  cardTitle:string = "Novo Angular criado dinamicamente"
+  cardDescription:string = "Um monte de coisa vai começar a fazer sentido agora!"
+
+  constructor() {
+  }
 
 }
