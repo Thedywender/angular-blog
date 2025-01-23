@@ -1,0 +1,13 @@
+.container__content {
+  border: 2px solid #FFF;
+  min-height: 100vh;
+}
+
+.container__cover img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content__title, .content__description {
+  text-align: center;
+}
