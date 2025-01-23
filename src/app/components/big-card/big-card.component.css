@@ -17,6 +17,7 @@
 .big-card__title > h1 {
   margin: 15px 0 10px 0;
   font-size: 30px;
+  text-align: center;
 }
 
 .big-card__description{
