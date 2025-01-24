@@ -3,29 +3,18 @@
 <div class="container__articles">
   <div class="articles__main">
     <app-big-card
-    photoCover="https://arquivo.devmedia.com.br/noticias/documentacao/documentacao_angular-cli-como-criar-artefatos-do-angular_38250.png"
-    cardTitle="Novo Angular criado dinamicamente!"
-    cardDescription="Aprenda a criar um novo Angular de forma dinâmica!">
-  </app-big-card>
+      [photoCover]="selectedArticle.photoCover"
+      [cardTitle]="selectedArticle.title"
+      [cardDescription]="selectedArticle.description">
+    </app-big-card>
   </div>
   <div class="articles__other">
     <app-small-card
-    photoSmallCard="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStJbfPp2V0g4hq_6GP0m_D-ZjTxwLmAr2hUA&s"
-    titleSmallCard="Alguma Coisa"
-    descriptionSmallCard="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel metus eu magna"
-    >
-  </app-small-card>
-  <app-small-card
-    photoSmallCard="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStJbfPp2V0g4hq_6GP0m_D-ZjTxwLmAr2hUA&s"
-    titleSmallCard="Alguma Coisa"
-    descriptionSmallCard="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel metus eu magna"
-    >
-  </app-small-card>
-  <app-small-card
-    photoSmallCard="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStJbfPp2V0g4hq_6GP0m_D-ZjTxwLmAr2hUA&s"
-    titleSmallCard="Alguma Coisa"
-    descriptionSmallCard="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel metus eu magna"
-    >
-  </app-small-card>
+      *ngFor="let article of articles"
+      [photoSmallCard]="article.photoCover"
+      [titleSmallCard]="article.title"
+      [descriptionSmallCard]="article.description"
+      (cardClick)="onCardClick(article)">
+    </app-small-card>
   </div>
 </div>

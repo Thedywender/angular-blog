@@ -1,6 +1,7 @@
 .container__small-card-principal {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .container__small-card {

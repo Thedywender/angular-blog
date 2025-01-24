@@ -1,10 +1,8 @@
-<div class="container__small-card-principal">
+<div class="container__small-card-principal" (click)="onCardClick()">
   <div class="container__small-card">
     <div class="small-picture">
-      <img src="{{ photoSmallCard }}"
-      >
+      <img [src]="photoSmallCard" alt="Small card image">
     </div>
-
     <div class="container__small-texts">
       <div class="mini-title">
         <p>{{ titleSmallCard }}</p>
