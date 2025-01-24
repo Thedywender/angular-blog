@@ -26,6 +26,7 @@ export class HomeComponent {
 
   onCardClick(article: any) {
     this.selectedArticle = article;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
 }
