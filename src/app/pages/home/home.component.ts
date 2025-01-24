@@ -29,4 +29,8 @@ export class HomeComponent {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  onBigCardClick() {
+    this.router.navigate(['/content/', this.selectedArticle.id]);
+  }
+
 }

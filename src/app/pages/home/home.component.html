@@ -5,7 +5,9 @@
     <app-big-card
       [photoCover]="selectedArticle.photoCover"
       [cardTitle]="selectedArticle.title"
-      [cardDescription]="selectedArticle.description">
+      [cardDescription]="selectedArticle.description"
+      (cardClick)="onBigCardClick()"
+      >
     </app-big-card>
   </div>
   <div class="articles__other">

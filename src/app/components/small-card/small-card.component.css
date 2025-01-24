@@ -1,7 +1,6 @@
 .container__small-card-principal {
   display: flex;
   flex-direction: column;
-  cursor: pointer;
 }
 
 .container__small-card {
@@ -13,6 +12,7 @@
 .small-picture > img {
   width: 200px;
   height: 130px;
+  cursor: pointer;
 }
 
 .container__small-texts {
@@ -28,7 +28,7 @@
   color: rgb(151, 149, 149);
 }
 
-.small-description > p > a {
+.small-description > p > span {
   color: rgb(230, 220, 220);
 }
 

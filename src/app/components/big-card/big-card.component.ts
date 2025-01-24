@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -11,8 +11,15 @@ export class BigCardComponent {
   @Input() photoCover:string = ""
   @Input() cardTitle:string = ""
   @Input() cardDescription:string = ""
+  @Input() cardId: string = ""
+  @Output() cardClick = new EventEmitter<string>();
+
 
   constructor() {
+  }
+
+  onCardClick() {
+    this.cardClick.emit();
   }
 
 }

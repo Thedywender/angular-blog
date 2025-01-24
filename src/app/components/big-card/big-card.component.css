@@ -9,8 +9,8 @@
 }
 
 .big-card__picture > img {
-  width: 100%;
-  min-width: 495px;
+  width: 500px;
+  height: 350px;
   object-fit: cover;
 }
 

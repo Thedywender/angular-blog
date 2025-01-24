@@ -1,6 +1,6 @@
-<div class="container__small-card-principal" (click)="onCardClick()">
+<div class="container__small-card-principal">
   <div class="container__small-card">
-    <div class="small-picture">
+    <div class="small-picture" (click)="onCardClick()">
       <img [src]="photoSmallCard" alt="Small card image">
     </div>
     <div class="container__small-texts">
@@ -9,9 +9,9 @@
       </div>
       <div class="small-description">
         <p>
-          <a href="#">
+          <span>
             {{ descriptionSmallCard }}
-          </a>
+          </span>
         </p>
       </div>
     </div>
